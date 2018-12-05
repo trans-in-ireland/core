@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/trans-in-ireland/trans-in-ireland.github.io.git
