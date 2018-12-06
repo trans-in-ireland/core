@@ -23,7 +23,7 @@ endif
 
 setup: setup-user-name setup-user-email
 
-render: setup
+render: setup revert
 	@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 	hugo
 	git -C public add .
