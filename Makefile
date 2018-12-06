@@ -36,4 +36,4 @@ publish: render
 	@ $(MAKE) push
 
 revert:
-	git -C public reset --hard HEAD^
+	git -C public reset --hard origin/master
